@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the content occupies at least the full viewport height */
+}
+/* .banner {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 24px; */
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 400px; /* Limit the form width for better readability */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form label,
+form button {
+    margin: 5px;
+}
+
+/* Custom input box styles */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #87C1FF;
+}
+
+/* Custom button styles */
+button {
+    display: inline-block;
+    background-color: #87C1FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #87C1FF;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* Responsive Styling for smaller screens */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    form label,
+    form button {
+        margin: 5px 0;
+    }
+
+    ol {
+        padding-left: 10px;
+    }
+
+    /* Custom button styles for smaller screens */
+    button {
+        padding: 8px 16px;
+    }
+
+    /* Adjust input box styles for smaller screens */
+    input[type="text"] {
+        font-size: 14px;
+    }
+}
+
+/* Responsive Styling for even smaller screens */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    form label,
+    form button {
+        margin: 3px 0;
+    }
+
+    ol {
+        padding-left: 5px;
+    }
+
+    /* Custom button styles for even smaller screens */
+    button {
+        padding: 6px 12px;
+    }
+
+    /* Adjust input box styles for even smaller screens */
+    input[type="text"] {
+        font-size: 12px;
+    }
+}
